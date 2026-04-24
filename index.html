@@ -38,7 +38,6 @@
       min-height: 100vh;
     }
 
-    /* ── NAV ─────────────────────────────────────── */
     nav {
       background: var(--green);
       padding: 0 40px;
@@ -52,31 +51,16 @@
       box-shadow: 0 2px 12px rgba(0,0,0,0.25);
     }
 
-    .nav-logo img {
-      height: 38px;
-      display: block;
-    }
+    .nav-logo img { height: 38px; display: block; }
 
-    .nav-stats {
-      display: flex;
-      gap: 28px;
-      align-items: center;
-    }
+    .nav-stats { display: flex; gap: 28px; align-items: center; }
 
-    .nav-stat {
-      color: rgba(255,255,255,0.8);
-      font-family: var(--font-body);
-      font-size: 14px;
-    }
+    .nav-stat { color: rgba(255,255,255,0.8); font-family: var(--font-body); font-size: 14px; }
 
-    .nav-stat strong {
-      color: #FFFFFF;
-      font-size: 15px;
-    }
+    .nav-stat strong { color: #FFFFFF; font-size: 15px; }
 
     .nav-dot { color: rgba(255,255,255,0.35); }
 
-    /* ── HERO ─────────────────────────────────────── */
     .hero {
       background: var(--hero-bg);
       text-align: center;
@@ -93,11 +77,7 @@
       line-height: 1.2;
     }
 
-    .hero h1 em {
-      color: var(--green-light);
-      font-style: italic;
-      text-transform: none;
-    }
+    .hero h1 em { color: var(--green-light); font-style: italic; text-transform: none; }
 
     .hero-sub {
       margin-top: 18px;
@@ -111,52 +91,22 @@
       line-height: 1.6;
     }
 
-    .hero-hint {
-      margin-top: 12px;
-      font-size: 14px;
-      color: rgba(255,255,255,0.45);
-      font-family: var(--font-body);
-    }
+    .hero-hint { margin-top: 12px; font-size: 14px; color: rgba(255,255,255,0.45); font-family: var(--font-body); }
 
     .hero-hint strong { color: rgba(255,255,255,0.7); }
 
-    /* ── ORG WRAP ─────────────────────────────────── */
-    .org-wrap {
-      background: var(--bg-alt);
-      padding: 60px 24px 90px;
-    }
+    .org-wrap { background: var(--bg-alt); padding: 60px 24px 90px; }
 
-    .org-inner {
-      max-width: 1100px;
-      margin: 0 auto;
-    }
+    .org-inner { max-width: 1100px; margin: 0 auto; }
 
-    /* ── ORG LAYOUT ───────────────────────────────── */
-    .org-layout {
-      max-width: 900px;
-      margin: 0 auto;
-    }
+    .org-layout { max-width: 900px; margin: 0 auto; }
 
-    /* Co-founder bar: horizontal line across top, stems drop down */
-    .cofounders-bar {
-      display: flex;
-      border-top: 2px solid var(--green);
-    }
+    .cofounders-bar { display: flex; border-top: 2px solid var(--green); }
 
-    .cf-col {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
+    .cf-col { flex: 1; display: flex; flex-direction: column; align-items: center; }
 
-    .cf-stem {
-      width: 2px;
-      height: 28px;
-      background: var(--green);
-    }
+    .cf-stem { width: 2px; height: 28px; background: var(--green); }
 
-    /* section label above co-founders */
     .tier-label {
       font-family: var(--font-body);
       font-size: 10px;
@@ -168,49 +118,14 @@
       text-align: center;
     }
 
-    /* RIGHT: Andrew + his reports subtree */
-    .andrew-subtree {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 100%;
-    }
+    .andrew-subtree { display: flex; flex-direction: column; align-items: center; width: 100%; }
 
-    .andrew-card-wrap {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-    }
+    .andrew-card-wrap { width: 100%; display: flex; justify-content: center; }
 
-    /* connector SVG from Andrew down */
-    .subtree-svg {
-      display: block;
-      width: 100%;
-      overflow: visible;
-    }
+    .subtree-svg { display: block; width: 100%; overflow: visible; }
 
-    /* reports row under Andrew */
-    .reports-row {
-      display: flex;
-      gap: 20px;
-      justify-content: center;
-      align-items: flex-start;
-      width: 100%;
-    }
+    .reports-row { display: flex; gap: 20px; justify-content: center; align-items: flex-start; width: 100%; }
 
-    .reports-label {
-      font-family: var(--font-body);
-      font-size: 10px;
-      letter-spacing: 1.4px;
-      text-transform: uppercase;
-      color: var(--text-sec);
-      font-weight: 700;
-      text-align: center;
-      width: 100%;
-      margin-bottom: 12px;
-    }
-
-    /* ── PERSON CARD ──────────────────────────────── */
     .person-card {
       background: var(--bg-white);
       border: 1.5px solid #DDE0E3;
@@ -223,162 +138,73 @@
       user-select: none;
     }
 
-    .person-card:hover {
-      box-shadow: 0 6px 22px rgba(20,100,20,0.13);
-      border-color: #BFCEBF;
-    }
+    .person-card:hover { box-shadow: 0 6px 22px rgba(20,100,20,0.13); border-color: #BFCEBF; }
 
     .reports-row .person-card { width: 260px; }
 
-    .person-header {
-      display: flex;
-      align-items: center;
-      gap: 14px;
-    }
+    .person-header { display: flex; align-items: center; gap: 14px; }
 
     .avatar {
-      width: 48px;
-      height: 48px;
-      border-radius: 50%;
-      background: var(--green);
-      color: #FFFFFF;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-family: var(--font-display);
-      font-size: 15px;
-      font-weight: 700;
-      letter-spacing: 0.5px;
-      flex-shrink: 0;
+      width: 48px; height: 48px; border-radius: 50%;
+      background: var(--green); color: #FFFFFF;
+      display: flex; align-items: center; justify-content: center;
+      font-family: var(--font-display); font-size: 15px; font-weight: 700;
+      letter-spacing: 0.5px; flex-shrink: 0;
     }
 
-    .person-info h2 {
-      font-family: var(--font-display);
-      font-size: 17px;
-      font-weight: 700;
-      color: var(--text-heading);
-    }
+    .person-info h2 { font-family: var(--font-display); font-size: 17px; font-weight: 700; color: var(--text-heading); }
 
-    .person-info p {
-      font-family: var(--font-body);
-      font-size: 13px;
-      color: var(--text-sec);
-      margin-top: 2px;
-    }
+    .person-info p { font-family: var(--font-body); font-size: 13px; color: var(--text-sec); margin-top: 2px; }
 
-    /* AI Badge */
     .ai-badge {
       margin-top: 16px;
-      display: inline-flex;
-      align-items: center;
-      gap: 7px;
+      display: inline-flex; align-items: center; gap: 7px;
       background: rgba(20,100,20,0.07);
       border: 1px solid rgba(20,100,20,0.22);
-      border-radius: 20px;
-      padding: 5px 13px;
-      font-family: var(--font-body);
-      font-size: 13px;
-      color: var(--green);
-      font-weight: 700;
-      cursor: pointer;
-      transition: background 0.15s;
+      border-radius: 20px; padding: 5px 13px;
+      font-family: var(--font-body); font-size: 13px;
+      color: var(--green); font-weight: 700;
+      cursor: pointer; transition: background 0.15s;
     }
 
     .ai-badge:hover { background: rgba(20,100,20,0.13); }
 
-    .ai-dot {
-      width: 7px;
-      height: 7px;
-      border-radius: 50%;
-      background: var(--green-bright);
-      flex-shrink: 0;
-    }
+    .ai-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--green-bright); flex-shrink: 0; }
 
-    .ai-badge svg {
-      width: 10px;
-      height: 10px;
-      fill: var(--green);
-      transition: transform 0.2s;
-      flex-shrink: 0;
-    }
+    .ai-badge svg { width: 10px; height: 10px; fill: var(--green); transition: transform 0.2s; flex-shrink: 0; }
 
     .ai-badge svg.open { transform: rotate(180deg); }
 
-    /* ── AI EMPLOYEES LIST ────────────────────────── */
-    .ai-section {
-      margin-top: 16px;
-      border-top: 1px solid #EAECEE;
-      padding-top: 14px;
-      display: none;
-    }
+    .ai-section { margin-top: 16px; border-top: 1px solid #EAECEE; padding-top: 14px; display: none; }
 
     .ai-section.open { display: block; }
 
     .ai-section-label {
-      font-family: var(--font-body);
-      font-size: 10px;
-      letter-spacing: 1.4px;
-      text-transform: uppercase;
-      color: var(--green);
-      font-weight: 700;
-      margin-bottom: 12px;
+      font-family: var(--font-body); font-size: 10px; letter-spacing: 1.4px;
+      text-transform: uppercase; color: var(--green); font-weight: 700; margin-bottom: 12px;
     }
 
-    .ai-employee {
-      display: flex;
-      align-items: flex-start;
-      gap: 10px;
-      padding: 9px 0;
-      border-bottom: 1px solid var(--bg-light);
-    }
+    .ai-employee { display: flex; align-items: flex-start; gap: 10px; padding: 9px 0; border-bottom: 1px solid var(--bg-light); }
 
     .ai-employee:last-child { border-bottom: none; }
 
     .ai-icon {
-      width: 30px;
-      height: 30px;
-      border-radius: 6px;
-      background: var(--bg-alt);
-      border: 1px solid #DDE0E3;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 14px;
-      flex-shrink: 0;
+      width: 30px; height: 30px; border-radius: 6px;
+      background: var(--bg-alt); border: 1px solid #DDE0E3;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 14px; flex-shrink: 0;
     }
 
-    .ai-text h4 {
-      font-family: var(--font-display);
-      font-size: 13px;
-      font-weight: 700;
-      color: var(--text-heading);
-      line-height: 1.3;
-    }
+    .ai-text h4 { font-family: var(--font-display); font-size: 13px; font-weight: 700; color: var(--text-heading); line-height: 1.3; }
 
-    .ai-text p {
-      font-family: var(--font-body);
-      font-size: 12px;
-      color: var(--text-sec);
-      margin-top: 2px;
-      line-height: 1.45;
-    }
+    .ai-text p { font-family: var(--font-body); font-size: 12px; color: var(--text-sec); margin-top: 2px; line-height: 1.45; }
 
-    /* ── FOOTER ───────────────────────────────────── */
-    footer {
-      background: var(--footer-bg);
-      text-align: center;
-      padding: 28px 24px;
-      font-family: var(--font-body);
-      font-size: 13px;
-      color: rgba(255,255,255,0.5);
-    }
+    footer { background: var(--footer-bg); text-align: center; padding: 28px 24px; font-family: var(--font-body); font-size: 13px; color: rgba(255,255,255,0.5); }
 
     footer strong { color: rgba(255,255,255,0.8); }
 
-    /* ── RESPONSIVE ───────────────────────────────── */
     @media (max-width: 720px) {
       .hero h1 { font-size: 28px; }
-      .team-row { flex-direction: column; align-items: center; }
       nav { padding: 0 20px; }
       .nav-stats { gap: 14px; }
     }
@@ -386,11 +212,8 @@
 </head>
 <body>
 
-<!-- NAV -->
 <nav>
-  <div class="nav-logo">
-    <img src="logo-white.png" alt="Compass Land USA" />
-  </div>
+  <div class="nav-logo"><img src="logo-white.png" alt="Compass Land USA" /></div>
   <div class="nav-stats">
     <span class="nav-stat"><strong>4</strong> humans</span>
     <span class="nav-dot">•</span>
@@ -398,255 +221,177 @@
   </div>
 </nav>
 
-<!-- HERO -->
 <div class="hero">
   <h1>The AI-Forward <em>RE Company</em></h1>
   <p class="hero-sub">"We don't hire people to do process work. We train humans to become AI Architects — then they build AI employees that handle the rest."</p>
   <p class="hero-hint">Click any card to explore the org. Click <strong>AI Employees</strong> to see who's really doing the work.</p>
 </div>
 
-<!-- ORG CHART -->
 <div class="org-wrap">
   <div class="org-inner">
     <div class="org-layout">
       <div class="cofounders-bar">
 
-      <!-- LEFT: Felicia -->
-      <div class="cf-col">
-        <div class="cf-stem"></div>
-        <div class="tier-label">Co-Founder</div>
-        <div class="person-card" onclick="toggleCard(this)">
-          <div class="person-header">
-            <div class="avatar">FC</div>
-            <div class="person-info">
-              <h2>Felicia</h2>
-              <p>Co-Founder &amp; COO</p>
-            </div>
-          </div>
-          <div class="ai-badge" onclick="toggleAI(event, this)">
-            <div class="ai-dot"></div>
-            3 AI Employees
-            <svg viewBox="0 0 10 6"><path d="M0 0l5 6 5-6z"/></svg>
-          </div>
-          <div class="ai-section">
-            <div class="ai-section-label">Felicia's AI Employees</div>
-            <div class="ai-employee">
-              <div class="ai-icon">🛡️</div>
-              <div class="ai-text">
-                <h4>Brand Guardian</h4>
-                <p>Enforces visual identity, voice, and content standards across every channel</p>
-              </div>
-            </div>
-            <div class="ai-employee">
-              <div class="ai-icon">📰</div>
-              <div class="ai-text">
-                <h4>HARO Reply Writer</h4>
-                <p>Drafts high-converting media pitch replies using CLUSA's brand voice and expertise</p>
-              </div>
-            </div>
-            <div class="ai-employee">
-              <div class="ai-icon">🪨</div>
-              <div class="ai-text">
-                <h4>EOS Rock Manager</h4>
-                <p>Manages quarterly Rock setting, tracking, and evaluation using the Entrepreneurial Operating System</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- RIGHT: Andrew + reports subtree -->
-      <div class="cf-col">
-        <div class="cf-stem"></div>
-      <div class="andrew-subtree">
-        <div class="tier-label">Co-Founder</div>
-
-        <!-- Andrew card -->
-        <div class="andrew-card-wrap">
+        <!-- FELICIA -->
+        <div class="cf-col">
+          <div class="cf-stem"></div>
+          <div class="tier-label">Co-Founder</div>
           <div class="person-card" onclick="toggleCard(this)">
             <div class="person-header">
-              <div class="avatar">AG</div>
-              <div class="person-info">
-                <h2>Andrew</h2>
-                <p>Co-Founder &amp; Sales</p>
-              </div>
+              <div class="avatar">FC</div>
+              <div class="person-info"><h2>Felicia</h2><p>Co-Founder &amp; COO</p></div>
             </div>
             <div class="ai-badge" onclick="toggleAI(event, this)">
-              <div class="ai-dot"></div>
-              4 AI Employees
+              <div class="ai-dot"></div>3 AI Employees
               <svg viewBox="0 0 10 6"><path d="M0 0l5 6 5-6z"/></svg>
             </div>
             <div class="ai-section">
-              <div class="ai-section-label">Andrew's AI Employees</div>
+              <div class="ai-section-label">Felicia's AI Employees</div>
               <div class="ai-employee">
-                <div class="ai-icon">📬</div>
-                <div class="ai-text">
-                  <h4>Minerva</h4>
-                  <p>Runs automated buyer outreach sequences via Postmark and Follow Up Boss</p>
-                </div>
+                <div class="ai-icon">🛡️</div>
+                <div class="ai-text"><h4>Brand Guardian</h4><p>Enforces visual identity, voice, and content standards across every channel</p></div>
               </div>
               <div class="ai-employee">
-                <div class="ai-icon">⚖️</div>
-                <div class="ai-text">
-                  <h4>DD Review Engine</h4>
-                  <p>Applies Andrew's acquisition framework to every deal at Review — hard gates, price anchors, GREENS and REDs</p>
-                </div>
+                <div class="ai-icon">📰</div>
+                <div class="ai-text"><h4>HARO Reply Writer</h4><p>Drafts high-converting media pitch replies using CLUSA's brand voice and expertise</p></div>
               </div>
               <div class="ai-employee">
-                <div class="ai-icon">🧾</div>
-                <div class="ai-text">
-                  <h4>Accounting Wizard</h4>
-                  <p>Handles bookkeeping queries, financial summaries, and accounting workflows</p>
-                </div>
-              </div>
-              <div class="ai-employee">
-                <div class="ai-icon">🤝</div>
-                <div class="ai-text">
-                  <h4>CLUSA Sales Wizard</h4>
-                  <p>Proof-loaded responses and objection handling for Compass Land USA buyer conversations</p>
-                </div>
+                <div class="ai-icon">🪨</div>
+                <div class="ai-text"><h4>EOS Rock Manager</h4><p>Manages quarterly Rock setting, tracking, and evaluation using the Entrepreneurial Operating System</p></div>
               </div>
             </div>
           </div>
         </div>
 
-        <!-- Connector: Andrew → Nimra + Afaq -->
-        <!-- Andrew center = 290px, Nimra center = 150px, Afaq center = 430px (in 580px subtree) -->
-        <svg class="subtree-svg" height="50" viewBox="0 0 580 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <line x1="290" y1="0"  x2="290" y2="25" stroke="#146414" stroke-width="1.5"/>
-          <line x1="150" y1="25" x2="430" y2="25" stroke="#146414" stroke-width="1.5"/>
-          <line x1="150" y1="25" x2="150" y2="50" stroke="#146414" stroke-width="1.5"/>
-          <line x1="430" y1="25" x2="430" y2="50" stroke="#146414" stroke-width="1.5"/>
-        </svg>
+        <!-- ANDREW + REPORTS -->
+        <div class="cf-col">
+          <div class="cf-stem"></div>
+          <div class="andrew-subtree">
+            <div class="tier-label">Co-Founder</div>
+            <div class="andrew-card-wrap">
+              <div class="person-card" onclick="toggleCard(this)">
+                <div class="person-header">
+                  <div class="avatar">AG</div>
+                  <div class="person-info"><h2>Andrew</h2><p>Co-Founder &amp; Sales</p></div>
+                </div>
+                <div class="ai-badge" onclick="toggleAI(event, this)">
+                  <div class="ai-dot"></div>4 AI Employees
+                  <svg viewBox="0 0 10 6"><path d="M0 0l5 6 5-6z"/></svg>
+                </div>
+                <div class="ai-section">
+                  <div class="ai-section-label">Andrew's AI Employees</div>
+                  <div class="ai-employee">
+                    <div class="ai-icon">📬</div>
+                    <div class="ai-text"><h4>Minerva</h4><p>Runs automated buyer outreach sequences via Postmark and Follow Up Boss</p></div>
+                  </div>
+                  <div class="ai-employee">
+                    <div class="ai-icon">⚖️</div>
+                    <div class="ai-text"><h4>DD Review Engine</h4><p>Applies Andrew's acquisition framework to every deal at Review — hard gates, price anchors, GREENS and REDs</p></div>
+                  </div>
+                  <div class="ai-employee">
+                    <div class="ai-icon">🧾</div>
+                    <div class="ai-text"><h4>Accounting Wizard</h4><p>Handles bookkeeping queries, financial summaries, and accounting workflows</p></div>
+                  </div>
+                  <div class="ai-employee">
+                    <div class="ai-icon">🤝</div>
+                    <div class="ai-text"><h4>CLUSA Sales Wizard</h4><p>Proof-loaded responses and objection handling for Compass Land USA buyer conversations</p></div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-        <!-- Reports -->
-        <div class="reports-row">
+            <svg class="subtree-svg" height="50" viewBox="0 0 580 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <line x1="290" y1="0" x2="290" y2="25" stroke="#146414" stroke-width="1.5"/>
+              <line x1="150" y1="25" x2="430" y2="25" stroke="#146414" stroke-width="1.5"/>
+              <line x1="150" y1="25" x2="150" y2="50" stroke="#146414" stroke-width="1.5"/>
+              <line x1="430" y1="25" x2="430" y2="50" stroke="#146414" stroke-width="1.5"/>
+            </svg>
 
-          <!-- NIMRA -->
-          <div class="person-card" onclick="toggleCard(this)">
-            <div class="person-header">
-              <div class="avatar">NM</div>
-              <div class="person-info">
-                <h2>Nimra</h2>
-                <p>Marketing</p>
-              </div>
-            </div>
-            <div class="ai-badge" onclick="toggleAI(event, this)">
-              <div class="ai-dot"></div>
-              4 AI Employees
-              <svg viewBox="0 0 10 6"><path d="M0 0l5 6 5-6z"/></svg>
-            </div>
-            <div class="ai-section">
-              <div class="ai-section-label">Nimra's AI Employees</div>
-              <div class="ai-employee">
-                <div class="ai-icon">🔎</div>
-                <div class="ai-text">
-                  <h4>Metis</h4>
-                  <p>Audits published listings against ICP scorecard and Notion data; flags what needs attention</p>
-                </div>
-              </div>
-              <div class="ai-employee">
-                <div class="ai-icon">✍️</div>
-                <div class="ai-text">
-                  <h4>Blog Writer</h4>
-                  <p>Produces SEO and GEO-optimized long-form articles in the CLUSA brand voice</p>
-                </div>
-              </div>
-              <div class="ai-employee">
-                <div class="ai-icon">🏞️</div>
-                <div class="ai-text">
-                  <h4>Property Photo Enhancer</h4>
-                  <p>Enhances and optimizes listing photos for publication-ready quality</p>
-                </div>
-              </div>
-              <div class="ai-employee">
-                <div class="ai-icon">🎬</div>
-                <div class="ai-text">
-                  <h4>CLUSA YouTube Property Tours</h4>
-                  <p>Scripts and structures property tour videos for the CLUSA YouTube channel</p>
-                </div>
-              </div>
-            </div>
-          </div>
+            <div class="reports-row">
 
-          <!-- AFAQ -->
-          <div class="person-card" onclick="toggleCard(this)">
-            <div class="person-header">
-              <div class="avatar">AZ</div>
-              <div class="person-info">
-                <h2>Afaq</h2>
-                <p>Acquisitions</p>
-              </div>
-            </div>
-            <div class="ai-badge" onclick="toggleAI(event, this)">
-              <div class="ai-dot"></div>
-              7 AI Employees
-              <svg viewBox="0 0 10 6"><path d="M0 0l5 6 5-6z"/></svg>
-            </div>
-            <div class="ai-section">
-              <div class="ai-section-label">Afaq's AI Employees</div>
-              <div class="ai-employee">
-                <div class="ai-icon">📊</div>
-                <div class="ai-text">
-                  <h4>Meridian</h4>
-                  <p>Pulls county lead data and preps formatted acquisition sheets for every mailing</p>
+              <!-- NIMRA -->
+              <div class="person-card" onclick="toggleCard(this)">
+                <div class="person-header">
+                  <div class="avatar">NM</div>
+                  <div class="person-info"><h2>Nimra</h2><p>Marketing</p></div>
+                </div>
+                <div class="ai-badge" onclick="toggleAI(event, this)">
+                  <div class="ai-dot"></div>4 AI Employees
+                  <svg viewBox="0 0 10 6"><path d="M0 0l5 6 5-6z"/></svg>
+                </div>
+                <div class="ai-section">
+                  <div class="ai-section-label">Nimra's AI Employees</div>
+                  <div class="ai-employee">
+                    <div class="ai-icon">🔎</div>
+                    <div class="ai-text"><h4>Metis</h4><p>Audits published listings against ICP scorecard and Notion data; flags what needs attention</p></div>
+                  </div>
+                  <div class="ai-employee">
+                    <div class="ai-icon">✍️</div>
+                    <div class="ai-text"><h4>Blog Writer</h4><p>Produces SEO and GEO-optimized long-form articles in the CLUSA brand voice</p></div>
+                  </div>
+                  <div class="ai-employee">
+                    <div class="ai-icon">🏞️</div>
+                    <div class="ai-text"><h4>Property Photo Enhancer</h4><p>Enhances and optimizes listing photos for publication-ready quality</p></div>
+                  </div>
+                  <div class="ai-employee">
+                    <div class="ai-icon">🎬</div>
+                    <div class="ai-text"><h4>CLUSA YouTube Property Tours</h4><p>Scripts and structures property tour videos for the CLUSA YouTube channel</p></div>
+                  </div>
                 </div>
               </div>
-              <div class="ai-employee">
-                <div class="ai-icon">🔬</div>
-                <div class="ai-text">
-                  <h4>DD Automation</h4>
-                  <p>Runs all 6 phases of county research and writes structured due diligence findings to Notion</p>
-                </div>
-              </div>
-              <div class="ai-employee">
-                <div class="ai-icon">🔀</div>
-                <div class="ai-text">
-                  <h4>Merge DirectSkip + PRYCD</h4>
-                  <p>End-to-end CSV pipeline — merges DirectSkip skip-trace results with PRYCD, computes offer ranges, removes sub-$8K offers, and outputs the final priced mailing list to Google Drive</p>
-                </div>
-              </div>
-              <div class="ai-employee">
-                <div class="ai-icon">📣</div>
-                <div class="ai-text">
-                  <h4>GHL Campaign Setup</h4>
-                  <p>Builds and launches acquisition mailing campaigns in GoHighLevel</p>
-                </div>
-              </div>
-              <div class="ai-employee">
-                <div class="ai-icon">🤝</div>
-                <div class="ai-text">
-                  <h4>BYLFC Sales Wizard</h4>
-                  <p>Proof-loaded responses and objection handling for Buy Your Land From Cowboys buyer conversations</p>
-                </div>
-              </div>
-              <div class="ai-employee">
-                <div class="ai-icon">🗺️</div>
-                <div class="ai-text">
-                  <h4>Weekly Pocket Scouting</h4>
-                  <p>Nightly automated Redfin pocket search — clusters land listings by geography, scores each pocket, and appends Tier 1 & 2 finds to the Area Selection Sheet</p>
-                </div>
-              <div class="ai-employee">
-                <div class="ai-icon">🏘️</div>
-                <div class="ai-text">
-                  <h4>Weekly Subdivide Scouting</h4>
-                  <p>Twice-weekly automated scout for minor-subdivide opportunities — scores counties on a 5-axis rubric and appends Tier 1 & 2 pockets to the Minor Subdivide Area Selection Sheet</p>
-                </div>
-              </div>
-              </div>
-            </div>
-          </div>
 
-        </div><!-- end reports-row -->
-      </div><!-- end andrew-subtree -->
-      </div><!-- end cf-col right -->
+              <!-- AFAQ -->
+              <div class="person-card" onclick="toggleCard(this)">
+                <div class="person-header">
+                  <div class="avatar">AZ</div>
+                  <div class="person-info"><h2>Afaq</h2><p>Acquisitions</p></div>
+                </div>
+                <div class="ai-badge" onclick="toggleAI(event, this)">
+                  <div class="ai-dot"></div>7 AI Employees
+                  <svg viewBox="0 0 10 6"><path d="M0 0l5 6 5-6z"/></svg>
+                </div>
+                <div class="ai-section">
+                  <div class="ai-section-label">Afaq's AI Employees</div>
+                  <div class="ai-employee">
+                    <div class="ai-icon">📊</div>
+                    <div class="ai-text"><h4>Meridian</h4><p>Pulls county lead data and preps formatted acquisition sheets for every mailing</p></div>
+                  </div>
+                  <div class="ai-employee">
+                    <div class="ai-icon">🔬</div>
+                    <div class="ai-text"><h4>DD Automation</h4><p>Runs all 6 phases of county research and writes structured due diligence findings to Notion</p></div>
+                  </div>
+                  <div class="ai-employee">
+                    <div class="ai-icon">🔀</div>
+                    <div class="ai-text"><h4>Merge DirectSkip + PRYCD</h4><p>End-to-end CSV pipeline — merges DirectSkip skip-trace results with PRYCD, computes offer ranges, removes sub-$8K offers, and outputs the final priced mailing list to Google Drive</p></div>
+                  </div>
+                  <div class="ai-employee">
+                    <div class="ai-icon">📣</div>
+                    <div class="ai-text"><h4>GHL Campaign Setup</h4><p>Builds and launches acquisition mailing campaigns in GoHighLevel</p></div>
+                  </div>
+                  <div class="ai-employee">
+                    <div class="ai-icon">🤝</div>
+                    <div class="ai-text"><h4>BYLFC Sales Wizard</h4><p>Proof-loaded responses and objection handling for Buy Your Land From Cowboys buyer conversations</p></div>
+                  </div>
+                  <div class="ai-employee">
+                    <div class="ai-icon">🗺️</div>
+                    <div class="ai-text"><h4>Weekly Pocket Scouting</h4><p>Nightly automated Redfin pocket search — clusters land listings by geography, scores each pocket, and appends Tier 1 &amp; 2 finds to the Area Selection Sheet</p></div>
+                  </div>
+                  <div class="ai-employee">
+                    <div class="ai-icon">🏘️</div>
+                    <div class="ai-text"><h4>Weekly Subdivide Scouting</h4><p>Twice-weekly automated scout for minor-subdivide opportunities — scores counties on a 5-axis rubric and appends Tier 1 &amp; 2 pockets to the Minor Subdivide Area Selection Sheet</p></div>
+                  </div>
+                </div>
+              </div>
+
+            </div><!-- end reports-row -->
+          </div><!-- end andrew-subtree -->
+        </div><!-- end cf-col right -->
 
       </div><!-- end cofounders-bar -->
     </div><!-- end org-layout -->
   </div><!-- end org-inner -->
 </div><!-- end org-wrap -->
 
-<!-- FOOTER -->
 <footer>
   <strong>Compass Land USA</strong> &nbsp;·&nbsp; compasslandusa.com &nbsp;·&nbsp; (313) 349-0434
 </footer>
